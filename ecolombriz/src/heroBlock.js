@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function HeroBlock() {
     return (
@@ -9,6 +10,7 @@ function HeroBlock() {
               <p className="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
               <button className="btn btn-outline-light"><a href="#" className="text-white fw-bold">Anotate aquí!</a></button>
             </div>
+            
         </div>
     );
 }

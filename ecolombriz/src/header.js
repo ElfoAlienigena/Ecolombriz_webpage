@@ -17,8 +17,9 @@ function Header2() {
 
   return (
     <header className="main-header">
+     
       <div className="container header-content">
-
+        
         {/* El botón ahora tiene un evento "onClick" de React.
             Al hacer clic, ejecuta toggleMenu.
         */}
@@ -41,6 +42,7 @@ function Header2() {
             <li><a href="#nosotros" onClick={() => setMenuAbierto(false)}>Nosotros</a></li>
             <li><a href="#servicios" onClick={() => setMenuAbierto(false)}>Servicios</a></li>
             <li><a href="#contacto" onClick={() => setMenuAbierto(false)}>Contacto</a></li>
+            <li className='radio'><a href="#radio" onClick={() => setMenuAbierto(false)}>Escucha Radio Ecolombina</a></li>
           </ul>
         </nav>
 

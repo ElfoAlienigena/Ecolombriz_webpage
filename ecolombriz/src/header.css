@@ -1,6 +1,7 @@
 /* =========================================
    ESTILOS BASE DEL HEADER (Se aplica a todo)
    ========================================= */
+
 .main-header {
     background-color: #7cb28c; /* O el color de fondo que uses */
     padding: 10px 0;
@@ -72,6 +73,14 @@
         top: 50%;
         transform: translate(-50%, -50%);
         cursor: default; /* En escritorio no parece un botón */
+    }
+
+    .radio {
+        display: left;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-270%, -50%);
     }
 }
 
