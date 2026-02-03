@@ -7,7 +7,7 @@ import Slider from './slider.js';
 import Valores from './valores.js';
 import HeroBlock from './heroBlock.js';
 import Rrss from './rrss.js';
-import Header2 from './neuvoHeader.js';
+import Header2 from './nuevoHeader.js';
 
 function App() {
   return (
