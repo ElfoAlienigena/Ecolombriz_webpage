@@ -7,13 +7,14 @@ import Slider from './slider.js';
 import Valores from './valores.js';
 import HeroBlock from './heroBlock.js';
 import Rrss from './rrss.js';
+import Header2 from './neuvoHeader.js';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header2 />
       
-      <main className="mt-5">
+      <main className="">
         <HeroBlock />
 
         <Slider />

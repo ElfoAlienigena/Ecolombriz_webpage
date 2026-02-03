@@ -71,3 +71,18 @@ h1, h2, h3, h4, h5, h6 {
     width: 50%;
   }
 }
+
+/* Asegúrate de que tu sección principal se llame 'hero' o usa la etiqueta 'main' */
+.heroBlock, main {
+    margin-top: 0 !important; /* Fuerza a quitar el espacio de arriba */
+    padding-top: 0; /* A veces el padding también separa */
+    
+    /* Opcional: Si quieres que la imagen del hero toque el header perfectamente */
+    display: block; 
+}
+
+/* También reseteamos el body por si acaso el navegador agrega margen */
+body {
+    margin: 0;
+    padding: 0;
+}
