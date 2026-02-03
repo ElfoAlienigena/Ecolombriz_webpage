@@ -2,7 +2,7 @@ import App from "./App";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-function Valores() {
+function Nosotros() {
     return (
          <div className="row">
             <div className="col-lg-4">
@@ -30,4 +30,4 @@ function Valores() {
     );
 }
 
-export default Valores;
+export default Nosotros;

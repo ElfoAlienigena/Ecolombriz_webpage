@@ -81,13 +81,12 @@
    ========================================= */
 @media (max-width: 768px) {
     .header-content {
-        /* En celular, el logo va a la izquierda */
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     /* El logo se hace un poco más pequeño en celular y el cursor es una manito */
     .logo-img {
-        height: 60px;
+        height: 100px;
         cursor: pointer;
     }
     

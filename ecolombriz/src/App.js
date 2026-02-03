@@ -2,12 +2,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import Header from './header.js';
 import Slider from './slider.js';
-import Valores from './valores.js';
+import Nosotros from './about.js';
 import HeroBlock from './heroBlock.js';
 import Rrss from './rrss.js';
-import Header2 from './nuevoHeader.js';
+import Header2 from './header.js';
 
 function App() {
   return (
@@ -19,10 +18,12 @@ function App() {
 
         <Slider />
 
-        <Rrss />
+        <div id='contacto'>
+          <Rrss />
+        </div>
 
-        <div className="container marketing mt-5">
-         <Valores />
+        <div className="container marketing mt-5" id='nosotros'>
+         <Nosotros />
         </div>
       </main>
 
