@@ -7,6 +7,7 @@ import Nosotros from './about.js';
 import HeroBlock from './heroBlock.js';
 import Rrss from './rrss.js';
 import Header2 from './header.js';
+import Footer from './footer.js';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
          <Nosotros />
         </div>
       </main>
-
+      <Footer />
     </div>
   );
 }

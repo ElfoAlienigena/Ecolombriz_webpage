@@ -82,6 +82,7 @@
 @media (max-width: 768px) {
     .header-content {
         justify-content: center;
+        height: 50px;
     }
 
     /* El logo se hace un poco más pequeño en celular y el cursor es una manito */
